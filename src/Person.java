@@ -13,8 +13,7 @@ public class Person {
         setWeight(weight);
     }
     // getter setter method alt+insert
-
-
+    
     public String getName() {
         return name;
     }
@@ -45,5 +44,12 @@ public class Person {
 
     public void setWeight(double weight) {
         this.weight = weight;
+    }
+
+    // create behavioral method, GrowOlder
+    public void growOlder() {
+        setAge(getAge() + 1); //  increasing the age by 1
+        setHeight(getHeight() - 1); // decreasing the height by 1
+        // update the weight + 2 kg
     }
 }

@@ -5,8 +5,17 @@ public class Main {
         System.out.println("Name = " + person00.getName());
         System.out.println("Age = " + person00.getAge());
         System.out.println("Height = " + person00.getHeight());
-        System.out.println("Wight = " + person00.getWeight());
+        System.out.println("Weight = " + person00.getWeight());
+
+        // call the growOlder method to  make person00 older
+        person00.growOlder();
+        System.out.println("A year after....");
+        System.out.println("Name = " + person00.getName());
+        System.out.println("Age = " + person00.getAge());
+        System.out.println("Height = " + person00.getHeight());
+        System.out.println("Weight = " + person00.getWeight());
         
         // CREATE PERSON01 AND PERSON02 OBJECTS AND PRINT THEM
+
     }
 }
